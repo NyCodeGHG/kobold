@@ -5,9 +5,9 @@ const nextConfig = {
   webpack: (config, options) => {
     config.experiments = {
       asyncWebAssembly: true,
-    }
+    };
     return config;
-  }
-}
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

@@ -1,7 +1,8 @@
-import { FC } from "react"
+import { FC } from "react";
+import { ContentInputResult } from "../ContentInput";
 
-const ArchiveViewer: FC = () => {
+const ArchiveViewer: FC<{ content: ContentInputResult }> = () => {
   return <p>Archive Viewer</p>;
-}
+};
 
 export default ArchiveViewer;
